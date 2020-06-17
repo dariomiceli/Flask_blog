@@ -8,7 +8,7 @@ from flask_login import current_user, login_required
 posts = Blueprint('posts', __name__)
 
 
-@posts.route("/post/new", methods=['POST', 'GET'])
+@posts.route("/post/new", methods=['POST', 'GET'])                                          # decorators add additional functionality to existing functions. @app.route handles all the complicated backend stuff.
 @login_required
 def new_post():
     form = PostForm()

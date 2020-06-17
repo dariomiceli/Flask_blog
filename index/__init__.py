@@ -17,7 +17,7 @@ mail = Mail()
 
 
 def create_app(config_class=Config):
-    app = Flask(__name__)
+    app = Flask(__name__)                           # set app variable equal to an instance of FLask class. __name__ is name of module. Flask knows where to look for templates and static files.
     app.config.from_object(Config)
 
     db.init_app(app)

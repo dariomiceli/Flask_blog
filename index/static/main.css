@@ -1,5 +1,5 @@
 body {
-  background: #fafafa;
+  background: #F1775D;
   color: #333333;
   margin-top: 5rem;
 }
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #F1775D;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section {
-  background: #ffffff;
+  background: #F1775D;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -59,7 +59,7 @@ a.article-title:hover {
 
 .article-metadata a:hover {
   color: #333;
-  text-decoration: none;
+  text-decoration: bold;
 }
 
 .article-svg {
